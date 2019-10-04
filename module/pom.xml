@@ -19,7 +19,7 @@
         <dependency>
             <groupId>org.roblet</groupId>
             <artifactId>roblet-server-module</artifactId>
-            <version>0.0</version>
+            <version>0.1</version>
             <scope>provided</scope>
         </dependency>
 
