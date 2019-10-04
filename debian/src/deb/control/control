@@ -1,0 +1,9 @@
+Package: roblet-module-sample
+Version: [[version]]
+Section: misc
+Priority: none
+Architecture: all
+Depends: roblet
+Maintainer: Hagen Stanek, roblet.org <stanek@roblet.org>
+Description: roblet server
+ This is a sample module for the roblet server.
