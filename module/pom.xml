@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.roblet.sample</groupId>
-    <artifactId>sample-roblet-module</artifactId>
+    <artifactId>module</artifactId>
     <version>1.0</version>
 
 </project>
