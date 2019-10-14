@@ -9,6 +9,7 @@ import genRob.genControl.modules.RobletHandle;
 public class Module implements Module2 {
 
     public void moduleInit(ModuleContext context) throws Exception {
+        System.out.println(System.getProperty("org.roblet.sample.module.test"));
     }
 
     public void moduleDone() {

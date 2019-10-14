@@ -1,0 +1,4 @@
+0
+org.roblet.sample.module.Module
+/opt/roblet-module-sample
+-Dorg.roblet.sample.module.test=TEST

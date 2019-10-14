@@ -43,6 +43,13 @@
                     <configuration>
                         <dataSet>
 
+                            <!-- /etc/roblet/org.roblet.sample.module -->
+                            <data>
+                                <src>src/deb/org.roblet.sample.module</src>
+                                <type>file</type>
+                                <dst>/etc/roblet/org.roblet.sample.module</dst>
+                            </data>
+
                             <!-- /opt/roblet-module-sample/*.jar -->
                             <data>
                                 <src>target/dependency</src>
