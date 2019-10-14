@@ -1,0 +1,4 @@
+CP=$(ls target/*.jar)
+P=target/dependency
+for F in $(ls $P); do CP=$CP":"$P/$F; done
+java -cp $CP org.roblet.sample.client.Main

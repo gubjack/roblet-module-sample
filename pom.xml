@@ -11,6 +11,7 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>client</module>
         <module>debian</module>
         <module>module</module>
     </modules>
