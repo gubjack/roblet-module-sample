@@ -1,5 +1,9 @@
 package org.roblet.sample.unit;
 
-public interface Property {
+import org.roblet.Unit;
+
+public interface Property extends Unit {
+
+    public String get();
 
 }
