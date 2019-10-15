@@ -23,6 +23,12 @@
             <scope>provided</scope>
         </dependency>
 
+        <dependency>
+            <groupId>org.roblet.sample</groupId>
+            <artifactId>unit</artifactId>
+            <version>0-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
 
 </project>

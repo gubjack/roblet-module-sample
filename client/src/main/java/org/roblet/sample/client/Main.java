@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 import org.roblet.Roblet;
 import org.roblet.Robot;
+import org.roblet.sample.unit.Property;
 
 import genRob.genControl.client.Client;
 import genRob.genControl.client.Server;
@@ -16,12 +17,13 @@ public class Main {
         Server  s = c.getServer(args.length == 0  ?  "localhost"  :  args[0]);
         Slot  x = s.getSlot();
         Roblet r = new TheRoblet();
-        x.run(r);
+        System.out.println(x.run(r));
     }
 
     public static class  TheRoblet implements Roblet, Serializable {
         public Object execute(Robot robot) throws Exception {
-            return null;
+            Property  property = (Property)robot.getUnit(Property.class);
+            return property.get();
         }
     }
 
