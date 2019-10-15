@@ -13,7 +13,7 @@ public class Main {
 
     public static void  main (String[] args) throws Exception {
         Client  c = new Client();
-        Server  s = c.getServer("localhost");
+        Server  s = c.getServer(args.length == 0  ?  "localhost"  :  args[0]);
         Slot  x = s.getSlot();
         Roblet r = new TheRoblet();
         x.run(r);
