@@ -15,7 +15,7 @@
 
     <dependencies>
 
-        <!-- Client library for the roblet server -->
+        <!-- Definitions for the roblet server units -->
         <dependency>
             <groupId>org.roblet</groupId>
             <artifactId>roblet-root</artifactId>
