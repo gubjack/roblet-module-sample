@@ -5,5 +5,5 @@ Priority: none
 Architecture: all
 Depends: roblet
 Maintainer: Hagen Stanek, roblet.org <stanek@roblet.org>
-Description: roblet server
+Description: sample roblet server module
  This is a sample module for the roblet server.
