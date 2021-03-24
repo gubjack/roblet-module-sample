@@ -22,7 +22,7 @@ public class Main {
 
     public static class  TheRoblet implements Roblet, Serializable {
         public Object execute(Robot robot) throws Exception {
-            Property  property = (Property)robot.getUnit(Property.class);
+            Property  property = robot.getUnit(Property.class);
             return property.get();
         }
     }
