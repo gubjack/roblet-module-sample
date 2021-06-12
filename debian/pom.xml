@@ -10,6 +10,10 @@
 
     <packaging>deb</packaging>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
     <dependencies>
 
         <!-- The module for the roblet server -->
