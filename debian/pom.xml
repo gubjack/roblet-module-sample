@@ -4,8 +4,8 @@
                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.roblet.sample</groupId>
-    <artifactId>debian</artifactId>
+    <groupId>org.roblet</groupId>
+    <artifactId>roblet-module-sample-debian</artifactId>
     <version>0-SNAPSHOT</version>
 
     <packaging>deb</packaging>
@@ -18,8 +18,8 @@
 
         <!-- The module for the roblet server -->
         <dependency>
-            <groupId>org.roblet.sample</groupId>
-            <artifactId>module</artifactId>
+            <groupId>org.roblet</groupId>
+            <artifactId>roblet-module-sample-module</artifactId>
             <version>0-SNAPSHOT</version>
         </dependency>
 
